@@ -43,7 +43,7 @@ describe('SearchHeader', () => {
     userEvent.click(searchButton);
 
     expect(
-      screen.getByText(`Search results for ${searchKeyword}`)
+      screen.getByText(`Search result for ${searchKeyword}`)
     ).toBeInTheDocument();
   });
 });
